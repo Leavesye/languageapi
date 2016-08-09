@@ -1,0 +1,29 @@
+{
+  "name": "language",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node app"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.7.1",
+    "debug": "~2.2.0",
+    "ejs": "^2.5.1",
+    "express": "~4.13.4",
+    "express-session": "^1.14.0",
+    "ioredis": "^2.2.0",
+    "jade": "~1.11.0",
+    "lodash": "^4.14.1",
+    "moment": "^2.14.1",
+    "mongoose": "^4.5.7",
+    "morgan": "~1.7.0",
+    "mpromise": "^0.5.5",
+    "node-uuid": "^1.4.7",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^2.0.0"
+  }
+}
